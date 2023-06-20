@@ -9,32 +9,28 @@ body {
     min-height: 100%; /*push footer*/
 }
 
-.header-transparency, .header-transparency, .block-two, .block-three, .block-four, .block-five {
+.header, .main, .banner, .quotation, .conclusion {
     padding: 0 100px;
 }
 
-.block-two, .block-three, .block-four, .block-five, .footer {
+.main, .banner, .quotation, .conclusion, .footer {
     background-image: url("./images/bg.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 
-.footer-transparency, .quote-transparency {
+.footer-box, .quotation-box {
     background: rgba(0,0,0,0.25);
 }
 
-.header-transparency {
+.header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.quote-transparency {
-    padding: 20px 80px;
 }
 
 a {
@@ -85,7 +81,7 @@ ul {
     padding: 0 10px;
 }
 
-.block-two {
+.main {
     display: flex;
     padding-top: 80px;
     padding-bottom: 50px;
@@ -117,11 +113,7 @@ ul {
     background: grey;
 }
 
-.block-three {
-    background: grey;
-}
-
-.image-transparency {
+.banner {
     background: grey;
     display: flex;
     gap: 50px;
@@ -142,7 +134,7 @@ ul {
     color: white;
 }
 
-.image {
+.image-div {
     width: 150px;
     height: 150px;
     border: solid 1px white;
@@ -150,11 +142,15 @@ ul {
     margin-bottom: 5px;
 }
 
-.block-four {
+.quotation {
     display: flex;
     flex-direction: column;
     padding-top: 100px; 
     padding-bottom: 10px;
+}
+
+.quotation-box {
+    padding: 20px 80px;
 }
 
 .quote {
@@ -175,14 +171,7 @@ ul {
     color: white;
 }
 
-.block-five {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.action-background {
+.conclusion-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +190,7 @@ ul {
  padding: 5px 20px;
 }
 
-.footer-transparency {
+.footer-box {
     display: flex;
     justify-content: center;
     align-items: center;
