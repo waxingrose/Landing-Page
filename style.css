@@ -83,10 +83,8 @@ ul {
 
 .main {
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 50px;
     justify-content: center;
-    height: 70vh;
+    flex-basis: 600px;
     align-items: center;
     gap: 100px;
 }
