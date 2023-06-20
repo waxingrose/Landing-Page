@@ -1,3 +1,3 @@
 # Landing-Page
 
-Landing Page as part of the Odin Project.
+Landing Page made for the Odin Project.
