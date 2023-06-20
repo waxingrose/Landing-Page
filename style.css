@@ -108,7 +108,9 @@ ul {
 .image {
     width: 150px;
     height: 150px;
-    border: solid 1px #3882F6;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .block-four {
