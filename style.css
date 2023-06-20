@@ -1,10 +1,17 @@
 body {
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    margin: 0;
 }
 
-.block-one, .block-two, .block-three, .block-four, .block-five, .footer {
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.block-one, .block-two, .block-three, .block-four, .block-five {
     padding: 0 100px;
+    flex: 1;
 }
 
 a {
@@ -55,6 +62,8 @@ ul {
 .block-two {
     display: flex;
     background: #1F2937;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .button {
