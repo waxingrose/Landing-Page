@@ -31,7 +31,7 @@ a {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .secondary-text {
@@ -82,7 +82,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 400px;
+    width: 500px;
     height: 200px;
     background: grey;
 }
@@ -90,6 +90,7 @@ ul {
 .block-three {
     display: flex;
     gap: 50px;
+    padding-bottom: 80px;
 }
 
 .child {
