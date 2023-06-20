@@ -91,18 +91,20 @@ ul {
     display: flex;
     gap: 50px;
     padding-bottom: 80px;
+    justify-content: space-between;
 }
 
 .child {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 150px;
+    text-align: center;
 }
 
 .image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: solid 1px #3882F6;
 }
 
