@@ -46,7 +46,7 @@ a {
     color: white;
 }
 
-.logo {
+.logo, .call-to-action {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -170,4 +170,5 @@ ul {
     align-items: center;
     background: #1F2937;
     color: white;
+    padding: 20px;
 }
