@@ -72,10 +72,12 @@ ul {
 }
 
 .button {
-    max-width: 100px;
-    padding: 5px 5px;
+    padding: 5px 20px;
     background: #3882F6;
     margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
 }
 
 .image-placeholder {
@@ -142,6 +144,8 @@ ul {
  background: #3882F6;
  border: solid 1px white;   
  color: white;
+ border-radius: 5px;
+ padding: 5px 20px;
 }
 
 .footer {
