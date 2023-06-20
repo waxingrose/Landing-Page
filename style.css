@@ -1,12 +1,12 @@
 body {
-    height: 100%; /*push footer*/
+    height: 100%; /*pushes footer towards the bottom*/
     margin: 0;
 }
 
 .body {
     display: flex;
     flex-direction: column;
-    min-height: 100%; /*push footer*/
+    min-height: 100%; /*pushes footer towards the bottom*/
 }
 
 .header, .main, .banner, .quotation, .conclusion {
@@ -85,9 +85,10 @@ ul {
     display: flex;
     padding-top: 80px;
     padding-bottom: 50px;
-    justify-content: space-between;
+    justify-content: center;
     height: 70vh;
     align-items: center;
+    gap: 100px;
 }
 
 .left-column {
