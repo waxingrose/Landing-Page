@@ -6,6 +6,12 @@ body {
     background-position: center;
 }
 
+a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -28,32 +34,6 @@ body {
     padding-bottom: 10px;
 }
 
-a {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-}
-
-.main-text {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.info-header {
-    font-size: 36px;
-    font-weight: 800;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    background: black;
-}
-
-.secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .left-logo {
     display: flex;
     justify-content: space-between;
@@ -64,17 +44,17 @@ a {
     color: white;
 }
 
-.call-to-action {
-    font-size: 24px;
-    color: #F9FAF8; 
-}
-
 ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
     margin: 0;
     padding: 0 10px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    color: #F9FAF8; 
 }
 
 .main {
@@ -87,6 +67,17 @@ ul {
 
 .left-column {
     max-width: 400px;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .button {
@@ -107,6 +98,15 @@ ul {
     min-width: 400px;
     height: 200px;
     background: grey;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: black;
 }
 
 .banner {
