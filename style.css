@@ -84,13 +84,14 @@ ul {
 .main {
     display: flex;
     justify-content: center;
-    flex-basis: 600px;
     align-items: center;
-    gap: 100px;
+    flex-basis: 600px;
+    gap: 60px;
+    flex-shrink: none;
 }
 
 .left-column {
-    width: 400px;
+    max-width: 400px;
 }
 
 .button {
@@ -108,7 +109,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 500px;
+    width: 400px;
     height: 200px;
     background: grey;
 }
