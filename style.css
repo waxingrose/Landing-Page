@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    background-image: url("./images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .body {
@@ -9,13 +13,6 @@ body {
 
 .header, .main, .banner, .quotation, .conclusion {
     padding: 0 100px;
-}
-
-.main, .banner, .quotation, .conclusion, .footer {
-    background-image: url("./images/bg.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
 .footer-box, .quotation-box {
@@ -46,9 +43,10 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: 800;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    background: black;
 }
 
 .secondary-text {
