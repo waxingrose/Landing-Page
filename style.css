@@ -1,12 +1,10 @@
 body {
-    height: 100%; /*pushes footer towards the bottom*/
     margin: 0;
 }
 
 .body {
     display: flex;
     flex-direction: column;
-    min-height: 100%; /*pushes footer towards the bottom*/
 }
 
 .header, .main, .banner, .quotation, .conclusion {
@@ -87,7 +85,6 @@ ul {
     align-items: center;
     flex-basis: 600px;
     gap: 60px;
-    flex-shrink: none;
 }
 
 .left-column {
@@ -109,7 +106,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 400px;
+    min-width: 400px;
     height: 200px;
     background: grey;
 }
@@ -173,6 +170,13 @@ ul {
     color: white;
 }
 
+.conclusion {
+    display: flex;
+    flex: 1; /*takes up rest of space and pushes footer down*/
+    justify-content: center;
+    align-items: center;
+}
+
 .conclusion-box {
     display: flex;
     justify-content: center;
@@ -181,7 +185,8 @@ ul {
     border-radius: 5px;
     padding: 30px 100px;
     gap: 100px;
-    margin: 50px 100px
+    margin: 50px 100px;
+    min-width: 0px;
 }
 
 .sign-up {
