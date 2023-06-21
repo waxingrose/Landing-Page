@@ -52,11 +52,6 @@ ul {
     padding: 0 10px;
 }
 
-.call-to-action {
-    font-size: 24px;
-    color: #F9FAF8; 
-}
-
 .main {
     display: flex;
     justify-content: center;
@@ -127,16 +122,16 @@ ul {
     text-align: center;
 }
 
-.subtext {
-    color: white;
-}
-
-.image-div {
+.image {
     width: 150px;
     height: 150px;
     border: solid 1px white;
     border-radius: 10px;
     margin-bottom: 5px;
+}
+
+.subtext {
+    color: white;
 }
 
 .quotation {
@@ -185,6 +180,11 @@ ul {
     gap: 100px;
     margin: 50px 100px;
     min-width: 0px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    color: #F9FAF8; 
 }
 
 .sign-up {
